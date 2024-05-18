@@ -28,7 +28,7 @@ color_options = {
     'r': (0, 0, 255),  # Red
     'b': (255, 0, 0),  # Blue
     'g': (0, 255, 0),  # Green
-    'k': (0, 255, 255)  # Black
+    'k': (0, 255, 255)  # Yellow
 }
 
 # Default color for drawing (red)
