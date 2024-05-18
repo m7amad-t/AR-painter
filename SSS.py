@@ -111,8 +111,8 @@ while True:
             # Draw landmarks for visualization
             drawing_utils.draw_landmarks(frame, hand_landmarks, mp.solutions.hands.HAND_CONNECTIONS)
             # Get the index fingertip position
-            index_x = int(hand_landmarks.landmark[8].x * 640)
-            index_y = int(hand_landmarks.landmark[8].y * 480)
+            index_x = int(hand_landmarks.landmark[8].x * width)
+            index_y = int(hand_landmarks.landmark[8].y * height)
 
             # Count the number of raised fingers
             num_fingers = count_raised_fingers(hand_landmarks)
